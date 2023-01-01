@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>org.example.void-theme</id>
+    <name>Void Dark Theme (UI, Editor)</name>
+    <vendor email="denis.volok.dev@pm.me">Denis Volok</vendor>
+    <description>Void Dark Theme (UI, Editor)</description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="e438aecd-8d0f-455a-af8d-93d6b5f3639a" path="/META-INF/void-theme.theme.json"/>
+    </extensions>
+    <actions>
+    </actions>
+</idea-plugin>
